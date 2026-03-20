@@ -51,10 +51,18 @@ body {
   position: relative;
   width: 300px;
   height: 225px;
+  border-radius: 15px;
+  box-shadow: 
+        0 10px 25px rgba(0,0,0,0.1),
+        0 2px 5px rgba(0,0,0,0.05);
 }
 
 #webcam {
   display: none;
+  border-radius: 15px;
+  box-shadow: 
+        0 10px 25px rgba(0,0,0,0.1),
+        0 2px 5px rgba(0,0,0,0.05);
 }
 
 #canvas {
@@ -63,6 +71,10 @@ body {
   left: 0;
   width: 300px;
   height: 100%;
+  border-radius: 15px;
+  box-shadow: 
+        0 10px 25px rgba(0,0,0,0.1),
+        0 2px 5px rgba(0,0,0,0.05);
 }
 
 .cake-area {
@@ -96,7 +108,7 @@ body {
 }
 
 .instructions {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: #051fc2;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -144,6 +156,11 @@ body {
   85% {
     opacity: 1;
   }
+  100% {
+    transform: translateY(110vh) translateX(0) rotate(720deg);
+    opacity: 0;
+  }
+}
   100% {
     transform: translateY(110vh) translateX(0) rotate(720deg);
     opacity: 0;
