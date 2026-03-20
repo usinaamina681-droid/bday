@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happy 16</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1 class="page-title">H A P P Y 16!</h1>
+        <div class="content">
+        <div class="webcam">
+            <video id="webcam" autoplay playsinline></video>
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <div class="cake-area">
+            <img class="cake-bg" src="img/cake_bg.png" alt="cake-bg">
+
+            <img class="cake" src="img/cake_unlit.gif" alt="cake">
+
+            <img class="match" src="img/match.gif" alt="match">
+        </div>
+        <p class="instructions">happy bday, may Allah accept all ur duas. now show ur hand and put the candle on the cake!</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="script.js"></script>
+</html>
